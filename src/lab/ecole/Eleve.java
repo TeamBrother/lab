@@ -12,10 +12,17 @@ import java.util.List;
  * @version 1.0
  */
 public class Eleve {
-	Classe classe;
-	Boolean isDelegue;
-	Boolean isSuppleant;
-	List<Note> notes;
-	List<Matiere> facultatives;
+	{
+		string nom;
+		string prenom;
+	}
 
+	{
+		Classe classe;
+		Boolean isDelegue;
+		Boolean isSuppleant;
+		List<Note> notes;
+		List<Matiere> facultatives;
+
+	}
 }
