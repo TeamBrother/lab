@@ -15,8 +15,9 @@ public class Enseignant {
 	Ecole ecole;
 	Boolean isAdjoint;
 	Boolean isDirecteur;
-	Boolean isPrincipal;
+	Boolean isProfPrincipal;
 	List<Controle> controles;
 	List<Matiere> matieres;
+	List<Classe> classes;
 
 }
